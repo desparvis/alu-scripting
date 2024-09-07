@@ -10,7 +10,7 @@ end
 input = ARGV[0]
 
 # Useing a regular expression to find all the matches  of 'School'
-matches = input.scan(/School/)
+matches = input.scan(/hbt{2,5}n/)
 
 # Printing the matches combined
 puts matches.join
